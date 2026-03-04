@@ -1,12 +1,30 @@
 .navbar {
-  background-color: black;
-  color: white;
-  padding: 15px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: red;
+  padding: 15px 40px;
+  color: white;
 }
 
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 55px;     /* adjust size if needed */
+  height: 55px;
+  object-fit: contain;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-size: 15px;
+}
 .nav-links a {
   color: white;
   margin-left: 20px;

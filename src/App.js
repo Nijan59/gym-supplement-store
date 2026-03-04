@@ -4,7 +4,10 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
 import Cart from "./pages/Cart";
+import Contact from "./pages/Contact";
+import About from "./pages/About";
 import { useState } from "react";
+
 
 function App() {
   const [cart, setCart] = useState([]);
