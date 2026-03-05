@@ -6,9 +6,8 @@
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;   
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  justify-content: center; 
+  text-align: center; 
 }
 .home-banner h1 {
   font-size: 50px;
@@ -28,8 +27,8 @@
   flex-wrap: wrap;
 }
 .services h1 {
-  width: 100%;            /* Ensures the heading takes the full width */
-  text-align: center;     /* Centers the text */
+  width: 100%;            
+  text-align: center;   
   margin-bottom: 40px;
 }
 .service-card {
@@ -65,7 +64,7 @@
   justify-content: center;
   position: relative;
 }
-/* Dark overlay (optional but looks professional) */
+/* Dark overlay */
 .banner-section::before {
   content: "";
   position: absolute;
@@ -114,12 +113,12 @@
   border-radius: 12px;
 }
 .info-text h2 {
-  font-size: 32px;
+  font-size: 40px;
   margin-bottom: 20px;
 }
 
 .info-text p {
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 20px;
   color: #555;
 }

@@ -1,6 +1,5 @@
-import "./Home.css";
-import proteinOffer from "../images/protein-offer.jpeg";
 import { Link } from "react-router-dom";
+import "./Home.css";
 import proteinImage from "../images/scoop.jpg";
 const Home = () => {
   return (
@@ -44,7 +43,7 @@ const Home = () => {
           <h2>Big Protein Sale 💪</h2>
           <p>Up to 30% OFF on Whey Protein</p>
           <button className="banner-btn">
-            <Link to="/products">Shop Now</Link>
+            <Link to="/products/">Shop Now</Link>
           </button>
         </div>
       </div>
@@ -59,7 +58,7 @@ const Home = () => {
             Our whey protein is made from high-quality ingredients that help
             you build muscle faster and recover better after workouts.
           </p>
-          <button className="info-btn">Learn More</button>
+          {/* <button className="info-btn">Learn More</button> */}
         </div>
       </div>
       {/* Feedback Section */}

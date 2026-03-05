@@ -27,7 +27,7 @@ const Products = ({ addToCart }) => {
           <option value="Pre Workout">Pre Workout</option>
           <option value="Gainer">Gainer</option>
           <option value="Shaker">Shaker</option>
-           <option value="Vitamins">Vitamins</option>
+          <option value="Vitamins">Vitamins</option>
         </select>
 
         <select onChange={(e) => setBrandFilter(e.target.value)}>
@@ -35,7 +35,6 @@ const Products = ({ addToCart }) => {
           <option value="Muscleblaze">Muscleblaze</option>
           <option value="Optimum Nutrition">Optimum Nutrition</option>
           <option value="MyProtein">MyProtein</option>
-          <option value="GNC">GNC</option>
         </select>
       </div>
 
@@ -50,7 +49,7 @@ const Products = ({ addToCart }) => {
 
             <img src={product.image} alt={product.name} />
 
-            <h3>{product.name} ({product.weight})</h3>
+            <h3>{product.name}{product.weight && product.weight !== "N/A" ? ` (${product.weight})` : ""}</h3>
             <p>Brand: {product.brand}</p>
             <p>Category: {product.category}</p>
             <p className="price">NPR {product.price}</p>
