@@ -1,13 +1,9 @@
 import "./ProductCard.css";
-
 const ProductCard = ({ product, addToCart }) => {
   return (
     <div className="card">
       <div className="card-image">
-        <img
-          src="https://via.placeholder.com/200"
-          alt={product.name}
-        />
+        <img src={product.image} alt={product.name} />
       </div>
 
       <h3>{product.name}</h3>

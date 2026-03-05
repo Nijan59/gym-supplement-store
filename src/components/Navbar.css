@@ -5,7 +5,9 @@
   background-color: red;
   padding: 15px 40px;
   color: white;
+  height: 60px;
 }
+
 
 .logo-section {
   display: flex;
@@ -13,9 +15,13 @@
   gap: 10px;
 }
 
+.logo-section h2 {
+ font-size: 25px;
+}
+
 .logo {
-  width: 55px;     /* adjust size if needed */
-  height: 55px;
+  width: 60px;     /* adjust size if needed */
+  height: 60px;
   object-fit: contain;
 }
 
@@ -29,9 +35,8 @@
   color: white;
   margin-left: 20px;
   text-decoration: none;
-  font-weight: 500;
-}
 
+}
 .nav-links a:hover {
   color: orange;
 }

@@ -13,6 +13,7 @@ const Home = () => {
 
       {/* Services Section */}
       <div className="services">
+              <h1> Our Services </h1>
         <div className="service-card">
           <span className="icon">💳</span>
           <h3>Secure Payment</h3>
@@ -51,7 +52,7 @@ const Home = () => {
         <div className="info-image">
           <img src={proteinImage} alt="Protein Supplement" />
         </div>
-
+      
         <div className="info-text">
           <h2>Why Choose Our Protein?</h2>
           <p>

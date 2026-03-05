@@ -8,7 +8,6 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import { useState } from "react";
 
-
 function App() {
   const [cart, setCart] = useState([]);
   const addToCart = (product) => setCart([...cart, product]);
@@ -20,9 +19,15 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products addToCart={addToCart} />} />
         <Route path="/cart" element={<Cart cart={cart} />} />
+        
+        {/* ADD THESE TWO 👇 */}
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+
       </Routes>
       <Footer />
     </Router>
   );
 }
+
 export default App;
