@@ -265,7 +265,7 @@ const products = [
     "brand": "MyProtein",
     "category": "Creatine",
     "weight": "250g",
-    "price":2850 ,
+    "price": 2850,
     "bonus": "",
     "image": "/images/Creatine Monohydrate-250g.avif"
   },
@@ -309,7 +309,7 @@ const products = [
     "bonus": "",
     "image": "/images/Legacy Dry Scoop Pre-Workout-288g.avif"
   },
-    {
+  {
     "id": 32,
     "name": "Daily Multivitamin Tablets",
     "brand": "MyProtein",
@@ -319,7 +319,7 @@ const products = [
     "bonus": "",
     "image": "/images/Daily Multivitamin Tablets-60t.avif"
   },
-      {
+  {
     "id": 33,
     "name": "Daily Multivitamin Tablets",
     "brand": "MyProtein",
@@ -329,7 +329,7 @@ const products = [
     "bonus": "",
     "image": "/images/Daily Multivitamin Tablets-180t.avif"
   },
-      {
+  {
     "id": 34,
     "name": "Ashwagandha Capsules",
     "brand": "MyProtein",
@@ -339,7 +339,7 @@ const products = [
     "bonus": "",
     "image": "/images/Ashwagandha Capsules-30c.avif"
   },
-      {
+  {
     "id": 35,
     "name": "Ashwagandha Capsules",
     "brand": "MyProtein",

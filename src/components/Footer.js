@@ -1,5 +1,4 @@
 import "./Footer.css";
-
 const Footer = () => {
   return (
     <footer className="footer">
@@ -47,7 +46,7 @@ const Footer = () => {
             <li>Register</li>
             <li>Track Order</li>
           </ul>
-        </div> 
+        </div>
       </div>
 
       {/* Bottom Section */}

@@ -16,11 +16,11 @@
 }
 
 .logo-section h2 {
- font-size: 25px;
+  font-size: 25px;
 }
 
 .logo {
-  width: 60px;     /* adjust size if needed */
+  width: 60px;
   height: 60px;
   object-fit: contain;
 }
@@ -31,12 +31,14 @@
   gap: 20px;
   font-size: 15px;
 }
+
 .nav-links a {
   color: white;
   margin-left: 20px;
   text-decoration: none;
 
 }
+
 .nav-links a:hover {
   color: orange;
 }
